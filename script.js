@@ -8,8 +8,8 @@ const CONFIG = {
     title: "Mohanad's Birthday Dinner",
     dateISO: "2026-06-01T20:00:00",
     endISO: "2026-06-01T23:30:00",
-    location: "The Place We Love Most",
-    mapsQuery: "romantic dinner restaurant",
+    location: "Ski Egypt",
+    mapsQuery: "Ski Egypt Mall of Egypt",
     details: "A soft nude and burgundy birthday date made only for us."
   }
 };
@@ -67,7 +67,8 @@ function init() {
 function setTextContent() {
   $("#eventLocationText").textContent = CONFIG.event.location;
   $("#mapsLink").href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CONFIG.event.mapsQuery || CONFIG.event.location)}`;
-  $("#calendarLink").href = createGoogleCalendarUrl();
+  const calEl = $("#calendarLink");
+  if (calEl) calEl.href = createGoogleCalendarUrl();
 }
 
 function initLoader() {
