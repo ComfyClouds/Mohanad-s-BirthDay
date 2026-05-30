@@ -8,7 +8,7 @@ const CONFIG = {
     title: "Mohanad's Birthday Dinner",
     dateISO: "2026-06-01T20:00:00",
     endISO: "2026-06-01T23:30:00",
-    location: "Ski Egypt",
+    location: "Ski Egypt & Dinner",
     mapsQuery: "Ski Egypt Mall of Egypt",
     details: "A soft nude and burgundy birthday date made only for us."
   }
