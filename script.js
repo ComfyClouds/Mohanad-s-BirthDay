@@ -1,6 +1,6 @@
 const CONFIG = {
   fianceName: "Mohanad",
-  relationshipStartDate: "2025-08-22T00:00:00",
+  relationshipStartDate: "2021-08-28T00:00:00",
   googleAppsScriptUrl: "https://script.google.com/macros/s/AKfycbxiVbmKvc924DMI39FAe2NhXDNBAYdNEWxUhvzPYXFcuvK9Rss6ZaQb5Rjhik3wFiQ3RA/exec",
   voiceMessageUrl: "https://www.dropbox.com/scl/fi/vohfx3nxg2xu4d5adsdqx/AUD-20260531-WA0039.m4a?rlkey=vr3eaoz59u4acl27xukeb8enp&st=k5vhoejs&raw=1",
   finaleSongUrl: "kol-sana.mp3",
